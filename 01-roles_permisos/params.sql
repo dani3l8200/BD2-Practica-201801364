@@ -19,8 +19,6 @@ alter system set sessions=2272 scope=spfile;
 alter system set transactions = 2500 scope = spfile;
 shutdown immediate;
 startup;
-COLUMN NAME FORMAT A20
-COLUMN VALUE FORMAT A20
 
 ---- PGA
 SHOW PARAMETER PGA;
@@ -29,6 +27,8 @@ SHOW PARAMETER AREA_SIZE;
 ALTER SYSTEM SET PGA_AGGREGATE_TARGET=100M;
 
 --- SHOW RESULTS
+COLUMN NAME FORMAT A20
+COLUMN VALUE FORMAT A20
 select name, value from v$parameter where name in ('processes','sessions','transactions')
 UNION 
 select name, TO_CHAR(((value/1024)/1024)) from v$parameter where name in ('sga_target')
