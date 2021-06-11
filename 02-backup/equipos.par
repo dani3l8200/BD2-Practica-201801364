@@ -1,0 +1,7 @@
+directory=backup
+dumpfile=futbol_bkp.dmp
+logfile=imp_schema_equipos.log
+remap_schema='FUTBOL:EQUIPOS'
+remap_tablespace='FUTBOLTBS:EQUIPOSTBS'
+CONTENT=METADATA_ONLY
+EXCLUDE=TABLE:"IN('LIGA','JORNADA','PARTIDO')"
