@@ -1,6 +1,6 @@
 set trimout on
 set tab off
--- set wrap on;
+set wrap off;
 set pagesize 50000;
 set linesize 120;
 SET ECHO ON
@@ -192,5 +192,4 @@ COLUMN jornada FORMAT 99 JUSTIFY CENTER
 COLUMN numero FORMAT 99 JUSTIFY CENTER
 COLUMN Liga_liga FORMAT 99 JUSTIFY CENTER
 SELECT * FROM JORNADA;
-
 EXIT;

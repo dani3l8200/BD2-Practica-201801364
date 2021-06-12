@@ -1,4 +1,0 @@
-directory=backup 
-dumpfile=futbol_bkp.dmp 
-logfile=futbol_bkp.log 
-schemas='FUTBOL'

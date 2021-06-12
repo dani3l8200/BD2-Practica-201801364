@@ -1,0 +1,5 @@
+directory=backup 
+dumpfile=futbol_jornadas_bkp.dmp 
+logfile=futbol_jornadas_bkp.log 
+schemas='FUTBOL'
+EXCLUDE=TABLE:"IN('JUGADOR','EQUIPO','PARTIDO')"

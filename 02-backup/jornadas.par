@@ -1,6 +1,5 @@
 directory=backup
-dumpfile=futbol_bkp.dmp
+dumpfile=futbol_jornadas_bkp.dmp
 logfile=imp_schema_jornadas.log
 remap_schema='FUTBOL:JORNADAS'
 remap_tablespace='FUTBOLTBS:JORNADASTBS'
-EXCLUDE=TABLE:"IN('JUGADOR','EQUIPO','PARTIDO')"
