@@ -2,4 +2,5 @@ directory=backup
 dumpfile=futbol_jornadas_bkp.dmp 
 logfile=futbol_jornadas_bkp.log 
 schemas='FUTBOL'
+CONTENT=ALL
 EXCLUDE=TABLE:"IN('JUGADOR','EQUIPO','PARTIDO')"

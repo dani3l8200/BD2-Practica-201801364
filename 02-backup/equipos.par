@@ -3,4 +3,3 @@ dumpfile=futbol_equipos_bkp.dmp
 logfile=imp_schema_equipos.log
 remap_schema='FUTBOL:EQUIPOS'
 remap_tablespace='FUTBOLTBS:EQUIPOSTBS'
-CONTENT=METADATA_ONLY
